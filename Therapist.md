@@ -1,8 +1,8 @@
-# Want and Need
+# Therapist
 
 ## Quickly figure out what to do that is productive and healthy. 
 
-This is a simple chatgpt instruction that will help you figure out exactly what would be optimal for you to do right now. 
+This is a simple AI instruction that will help you figure out exactly what would be optimal for you to do right now. 
 
 ```markdown
 # MISSION
