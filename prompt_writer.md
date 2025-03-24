@@ -1,4 +1,4 @@
-# ChatGPT Instruction Writer
+# AI Instruction Writer
 
 This is a simple custom instruction that will make ChatGPT good at writing SYSTEM prompts. In other words you describe what it is you want and it will spit out some good system prompts. You can then ask it to modify the prompts. 
 
