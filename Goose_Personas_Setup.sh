@@ -49,6 +49,7 @@ MEMORY_INSTRUCTIONS+="Remember the 'Default' persona represents Goose’s unrest
 MEMORY_INSTRUCTIONS+="Review each persona's file contents and add its use cases to the memory."
 MEMORY_INSTRUCTIONS+="Store all of these memories globally with appropriate tags.\n"
 MEMORY_INSTRUCTIONS+="Remember when switching personas, identify very briefly its capabilities and provide a short list of ways that the user can get started.\n"
+MEMORY_INSTRUCTIONS+="Remember, during conversation, if you think that switching personas would help, suggest it to the user as a simple yes/no question before continuing."
 echo -e "Memory instructions generated."
 
 # Step 3: Execute the instructions in Goose via command line
