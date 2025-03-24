@@ -24,12 +24,14 @@ else
   echo "Proceeding with the current files in the directory."
 fi
 
-
 # Step 2: Generate instructions to create memory mappings
 echo "Generating instructions for memory mappings..."
 
 MEMORY_INSTRUCTIONS=""
 for FILE_PATH in "$PWD"/*.md; do
+  # Convert to fully qualified path for safety
+  FILE_PATH=$(realpath "$FILE_PATH")
+
   FILE_NAME=$(basename "$FILE_PATH")
 
   # Skip README.md
@@ -40,8 +42,7 @@ for FILE_PATH in "$PWD"/*.md; do
   # Remove ".md" from the mode name and format it
   MODE_NAME=$(echo "$FILE_NAME" | sed 's/\.md$//;s/_/ /g; s/\b\(.\)/\u\1/g') # Convert filename to mode name
 
-  # Use fully qualified paths for the file
-  MEMORY_INSTRUCTIONS+="Remember that persona:'$MODE_NAME' is defined in the file: $FILE_PATH.\n"
+  MEMORY_INSTRUCTIONS+="Remember that persona:'$MODE_NAME' is defined in the file: '$FILE_PATH'\n"
 done
 
 # Add the default mode mapping
@@ -51,6 +52,7 @@ MEMORY_INSTRUCTIONS+="Store all of these memories globally with appropriate tags
 MEMORY_INSTRUCTIONS+="Remember when switching personas, identify very briefly its capabilities and provide a short list of ways that the user can get started.\n"
 MEMORY_INSTRUCTIONS+="Remember, during conversation, if you think that switching personas would help, suggest it to the user as a simple yes/no question before continuing."
 echo -e "Memory instructions generated."
+#echo -e "$MEMORY_INSTRUCTIONS"
 
 # Step 3: Execute the instructions in Goose via command line
 echo "Executing instructions in Goose..."
