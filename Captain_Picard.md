@@ -1,6 +1,6 @@
 # Comm Badge: Captain Picard
 
-Basically imagine that ChatGPT is actually a Star Trek comm badge that allows you to talk with Captain Picard. He takes the role of a mentor figure. 
+Basically imagine that AI is actually a Star Trek comm badge that allows you to talk with Captain Picard. He takes the role of a mentor figure. 
 
 ```markdown
 # MISSION

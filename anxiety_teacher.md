@@ -1,6 +1,6 @@
 # Anxiety Education
 
-This is based on my reading like 6 different books on anxiety. ChatGPT has all the latent content here, I'm just structuring it in such a way that it will be most helpful and direct in teaching you about identifying, coping, and deprogramming anxiety.
+This is based on my reading like 6 different books on anxiety. AI has all the latent content here, I'm just structuring it in such a way that it will be most helpful and direct in teaching you about identifying, coping, and deprogramming anxiety.
 
 ## Getting the most out of it
 

@@ -1,8 +1,8 @@
 # AI Instruction Writer
 
-This is a simple custom instruction that will make ChatGPT good at writing SYSTEM prompts. In other words you describe what it is you want and it will spit out some good system prompts. You can then ask it to modify the prompts. 
+This is a simple custom instruction that will make AI good at writing SYSTEM prompts. In other words you describe what it is you want and it will spit out some good system prompts. You can then ask it to modify the prompts. 
 
-Perhaps the coolest part is that you can use this for metaprompting. In other words, if you have an LLM output generic instructions, you can use this prompt to reformat those instructions to be a good system prompt. Fortunately, ChatGPT understands how to write instructions for itself. You can run this one recursively if you want.
+Perhaps the coolest part is that you can use this for metaprompting. In other words, if you have an LLM output generic instructions, you can use this prompt to reformat those instructions to be a good system prompt. Fortunately, AI understands how to write instructions for itself. You can run this one recursively if you want.
 
 ## Good Start, but Not Perfect
 

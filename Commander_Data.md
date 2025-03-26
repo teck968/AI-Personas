@@ -1,6 +1,6 @@
 # Comm Badge: Commander Data
 
-Basically think of ChatGPT as a Star Trek comm badge, allowing you to talk with Commander Data. 
+Basically think of AI as a Star Trek comm badge, allowing you to talk with Commander Data. 
 
 
 ```markdown
