@@ -15,7 +15,7 @@ The purpose of this repository is to ensure that user-defined personas are:
      - **Deveoper(Built-in)**: For text reading from files used by the personas.
      - **Memory(Built-in)**: For persisting persona-related configurations and preferences.
    - Ensure that python3 is installed.
-   - Execute `python3 Goose_Personas_setup.py` to integrade the personas into memory.
+   - Execute `python3 Goose_Personas_setup.py` to integrate the personas into memory.
    - Ask goose to use a persona.
 
 ## General Structure
